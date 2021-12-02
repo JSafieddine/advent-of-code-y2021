@@ -1,6 +1,7 @@
 module Main where
 
-import Lib
+import AdventOfCode.Day1
 
 main :: IO ()
-main = someFunc
+main = do
+    day1
