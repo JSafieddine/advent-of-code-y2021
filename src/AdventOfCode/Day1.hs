@@ -1,10 +1,14 @@
 module AdventOfCode.Day1 where
 import GHC.IO.Buffer (slideContents)
+import System.IO (putStr)
 
 day1 :: IO ()
 day1 = do
     input <- readFile "src/Data/Day1.txt"
+    putStrLn "Day1"
+    putStr "Part 1: "
     print . solverPartOne $ input
+    putStr "Part 2: "
     print . solverPartTwo $ input
 
 parseInput :: String -> [Int]

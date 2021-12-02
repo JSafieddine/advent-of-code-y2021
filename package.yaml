@@ -24,6 +24,8 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies:
+    - megaparsec
 
 executables:
   advent-of-code-y2021-exe:
@@ -46,4 +48,6 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - advent-of-code-y2021
+    - megaparsec
     - hspec
+    - hspec-megaparsec
