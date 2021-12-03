@@ -2,7 +2,7 @@
 
 module AdventOfCode.Day2 where
 
-import Text.Megaparsec (Parsec, (<|>), many, eof, initialPos, runParser)
+import Text.Megaparsec (Parsec, (<|>), many, eof, runParser)
 import Data.Void (Void)
 import Text.Show (Show)
 import Text.Megaparsec.Char (string, eol)
