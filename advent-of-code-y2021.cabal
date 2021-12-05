@@ -29,12 +29,14 @@ library
       AdventOfCode.Day2
       AdventOfCode.Day3
       AdventOfCode.Day4
+      AdventOfCode.Day5
   other-modules:
       Paths_advent_of_code_y2021
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
+    , containers
     , matrix
     , megaparsec
     , parser-combinators
@@ -61,6 +63,7 @@ test-suite advent-of-code-y2021-test
       AdventOfCode.Day2Spec
       AdventOfCode.Day3Spec
       AdventOfCode.Day4Spec
+      AdventOfCode.Day5Spec
       Paths_advent_of_code_y2021
   hs-source-dirs:
       test

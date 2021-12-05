@@ -29,6 +29,7 @@ library:
     - parser-combinators
     - vector
     - matrix
+    - containers
 
 executables:
   advent-of-code-y2021-exe:
