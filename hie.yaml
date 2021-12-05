@@ -1,2 +1,8 @@
 cradle:
   stack:
+    - path: "./src"
+      component: "advent-of-code-y2021:lib"
+    - path: "./app"
+      component: "advent-of-code-y2021:exe:advent-of-code-y2021-exe"
+    - path: "./test"
+      component: "advent-of-code-y2021:test:advent-of-code-y2021-test"

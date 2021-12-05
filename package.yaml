@@ -26,6 +26,9 @@ library:
   source-dirs: src
   dependencies:
     - megaparsec
+    - parser-combinators
+    - vector
+    - matrix
 
 executables:
   advent-of-code-y2021-exe:
@@ -51,3 +54,4 @@ tests:
     - megaparsec
     - hspec
     - hspec-megaparsec
+    - parser-combinators

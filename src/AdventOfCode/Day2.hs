@@ -9,6 +9,8 @@ import Text.Megaparsec.Char (string, eol)
 import Text.Megaparsec.Char.Lexer (decimal)
 import System.IO (putStr)
 
+type Parser = Parsec Void String
+
 day2 :: IO ()
 day2 = do
     input <- readFile "src/Data/Day2.txt"
@@ -17,8 +19,6 @@ day2 = do
     print . solverPartOne $ input
     putStr "Part 2: "
     print . solverPartTwo $ input
-
-type Parser = Parsec Void String
 
 data Command = Forward Int | Down Int | Up Int
     deriving (Show, Eq)
