@@ -56,3 +56,4 @@ tests:
     - hspec
     - hspec-megaparsec
     - parser-combinators
+    - containers 

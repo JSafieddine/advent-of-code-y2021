@@ -32,6 +32,7 @@ library
       AdventOfCode.Day5
       AdventOfCode.Day6
       AdventOfCode.Day7
+      AdventOfCode.Day8
   other-modules:
       Paths_advent_of_code_y2021
   hs-source-dirs:
@@ -68,6 +69,7 @@ test-suite advent-of-code-y2021-test
       AdventOfCode.Day5Spec
       AdventOfCode.Day6Spec
       AdventOfCode.Day7Spec
+      AdventOfCode.Day8Spec
       Paths_advent_of_code_y2021
   hs-source-dirs:
       test
@@ -75,6 +77,7 @@ test-suite advent-of-code-y2021-test
   build-depends:
       advent-of-code-y2021
     , base >=4.7 && <5
+    , containers
     , hspec
     , hspec-megaparsec
     , megaparsec

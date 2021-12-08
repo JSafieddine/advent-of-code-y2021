@@ -20,7 +20,7 @@ spec = do
     it "test bingoNumberParser" $
       parse bingoNumberParser "" "1,2,3,4,30\n" `shouldParse` [1,2,3,4,30]
     it "test bingoFieldParser" $
-      parse bingoFieldParser "" " 1  2 10\n 3  3 10\n\n" `shouldParse` 
+      parse bingoFieldParser "" " 1  2 10\n 3  3 10\n\n" `shouldParse`
       [[1, 2, 10], [3, 3, 10]]
     it "inputParser" $ do
       input <- readFile "test/Data/Day4.txt"
