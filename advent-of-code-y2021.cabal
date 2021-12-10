@@ -33,6 +33,7 @@ library
       AdventOfCode.Day6
       AdventOfCode.Day7
       AdventOfCode.Day8
+      AdventOfCode.Day9
   other-modules:
       Paths_advent_of_code_y2021
   hs-source-dirs:
@@ -70,6 +71,7 @@ test-suite advent-of-code-y2021-test
       AdventOfCode.Day6Spec
       AdventOfCode.Day7Spec
       AdventOfCode.Day8Spec
+      AdventOfCode.Day9Spec
       Paths_advent_of_code_y2021
   hs-source-dirs:
       test
