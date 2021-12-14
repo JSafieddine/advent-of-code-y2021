@@ -27,6 +27,8 @@ library
   exposed-modules:
       AdventOfCode.Day1
       AdventOfCode.Day10
+      AdventOfCode.Day11
+      AdventOfCode.Day14
       AdventOfCode.Day2
       AdventOfCode.Day3
       AdventOfCode.Day4
@@ -65,6 +67,8 @@ test-suite advent-of-code-y2021-test
   main-is: Spec.hs
   other-modules:
       AdventOfCode.Day10Spec
+      AdventOfCode.Day11Spec
+      AdventOfCode.Day14Spec
       AdventOfCode.Day1Spec
       AdventOfCode.Day2Spec
       AdventOfCode.Day3Spec
