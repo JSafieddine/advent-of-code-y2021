@@ -29,6 +29,7 @@ library
       AdventOfCode.Day10
       AdventOfCode.Day11
       AdventOfCode.Day14
+      AdventOfCode.Day15
       AdventOfCode.Day2
       AdventOfCode.Day3
       AdventOfCode.Day4
@@ -69,6 +70,7 @@ test-suite advent-of-code-y2021-test
       AdventOfCode.Day10Spec
       AdventOfCode.Day11Spec
       AdventOfCode.Day14Spec
+      AdventOfCode.Day15Spec
       AdventOfCode.Day1Spec
       AdventOfCode.Day2Spec
       AdventOfCode.Day3Spec
