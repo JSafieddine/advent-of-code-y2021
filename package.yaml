@@ -28,8 +28,10 @@ library:
     - megaparsec
     - parser-combinators
     - vector
-    - matrix
+    - matrix 
+    - hmatrix
     - containers
+    - mtl
 
 executables:
   advent-of-code-y2021-exe:
@@ -56,4 +58,5 @@ tests:
     - hspec
     - hspec-megaparsec
     - parser-combinators
-    - containers 
+    - containers
+    - mtl

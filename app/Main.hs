@@ -11,6 +11,7 @@ import AdventOfCode.Day8 (day8)
 import AdventOfCode.Day9 (day9)
 import AdventOfCode.Day10 (day10)
 import AdventOfCode.Day14 (day14)
+import AdventOfCode.Day17 (day17)
 
 main :: IO ()
 main = do
@@ -25,4 +26,5 @@ main = do
     day9
     day10
     day14
+    day17
 

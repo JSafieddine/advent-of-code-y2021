@@ -30,6 +30,9 @@ library
       AdventOfCode.Day11
       AdventOfCode.Day14
       AdventOfCode.Day15
+      AdventOfCode.Day17
+      AdventOfCode.Day18
+      AdventOfCode.Day19
       AdventOfCode.Day2
       AdventOfCode.Day3
       AdventOfCode.Day4
@@ -45,8 +48,10 @@ library
   build-depends:
       base >=4.7 && <5
     , containers
+    , hmatrix
     , matrix
     , megaparsec
+    , mtl
     , parser-combinators
     , vector
   default-language: Haskell2010
@@ -71,6 +76,9 @@ test-suite advent-of-code-y2021-test
       AdventOfCode.Day11Spec
       AdventOfCode.Day14Spec
       AdventOfCode.Day15Spec
+      AdventOfCode.Day17Spec
+      AdventOfCode.Day18Spec
+      AdventOfCode.Day19Spec
       AdventOfCode.Day1Spec
       AdventOfCode.Day2Spec
       AdventOfCode.Day3Spec
@@ -91,5 +99,6 @@ test-suite advent-of-code-y2021-test
     , hspec
     , hspec-megaparsec
     , megaparsec
+    , mtl
     , parser-combinators
   default-language: Haskell2010

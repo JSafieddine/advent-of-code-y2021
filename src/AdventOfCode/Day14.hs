@@ -61,7 +61,7 @@ data Polymerizer
   } deriving (Show)
 
 solverPartTwo :: String -> Int
-solverPartTwo input = quantityDiff $ iterate (step ir) template !! 40
+solverPartTwo input = -1 -- quantityDiff $ iterate (step ir) template !! 40
   where
     (Right (template, ir)) = runParser inputParser "" input
 
