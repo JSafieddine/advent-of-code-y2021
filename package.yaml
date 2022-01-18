@@ -28,10 +28,13 @@ library:
     - megaparsec
     - parser-combinators
     - vector
-    - matrix 
+    - matrix
     - hmatrix
     - containers
     - mtl
+    - microlens
+    - microlens-platform
+    - graphite
 
 executables:
   advent-of-code-y2021-exe:

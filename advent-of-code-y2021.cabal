@@ -28,6 +28,7 @@ library
       AdventOfCode.Day1
       AdventOfCode.Day10
       AdventOfCode.Day11
+      AdventOfCode.Day12
       AdventOfCode.Day14
       AdventOfCode.Day15
       AdventOfCode.Day17
@@ -48,9 +49,12 @@ library
   build-depends:
       base >=4.7 && <5
     , containers
+    , graphite
     , hmatrix
     , matrix
     , megaparsec
+    , microlens
+    , microlens-platform
     , mtl
     , parser-combinators
     , vector
@@ -74,6 +78,7 @@ test-suite advent-of-code-y2021-test
   other-modules:
       AdventOfCode.Day10Spec
       AdventOfCode.Day11Spec
+      AdventOfCode.Day12Spec
       AdventOfCode.Day14Spec
       AdventOfCode.Day15Spec
       AdventOfCode.Day17Spec

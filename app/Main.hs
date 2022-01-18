@@ -10,6 +10,8 @@ import AdventOfCode.Day7 (day7)
 import AdventOfCode.Day8 (day8)
 import AdventOfCode.Day9 (day9)
 import AdventOfCode.Day10 (day10)
+import AdventOfCode.Day11 (day11)
+import AdventOfCode.Day12 (day12)
 import AdventOfCode.Day14 (day14)
 import AdventOfCode.Day17 (day17)
 
@@ -25,6 +27,8 @@ main = do
     day8
     day9
     day10
+    day11
+    day12
     day14
     day17
 

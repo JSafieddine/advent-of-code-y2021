@@ -13,4 +13,4 @@ spec = do
     it "part one" $
       (readFile "test/Data/Day11.txt" <&> solverPartOne) `shouldReturn` 1656
     it "part two" $
-      (readFile "test/Data/Day11.txt" <&> solverPartTwo) `shouldReturn` -2 
+      (readFile "test/Data/Day11.txt" <&> solverPartTwo) `shouldReturn` 195
